@@ -50,7 +50,7 @@ void insertionSort(std::vector<int>& arr) {
 }
 
 void mergeInsertionSort(std::vector<int>& arr) {
-  if (arr.size() <= 1200) {
+  if (arr.size() <= 50) {
     insertionSort(arr);
     return;
   }
